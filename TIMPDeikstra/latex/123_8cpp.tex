@@ -1,0 +1,52 @@
+\hypertarget{123_8cpp}{}\section{T\+I\+M\+P Deikstra/123.cpp File Reference}
+\label{123_8cpp}\index{T\+I\+M\+P Deikstra/123.\+cpp@{T\+I\+M\+P Deikstra/123.\+cpp}}
+{\ttfamily \#include $<$iostream$>$}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{123_8cpp_a553cee08aaeb722a1554f767d2384ae5}{Deikstra} (int $\ast$$\ast$A, int st, int N)
+\item 
+void \hyperlink{123_8cpp_acdef7a1fd863a6d3770c1268cb06add3}{main} ()
+\begin{DoxyCompactList}\small\item\em Алгоритм Дейкстры -\/ алгоритм на графах, изобретённый нидерландским учёным Э. Дейкстрой в 1959 году. Находит кратчайшие пути от одной из вершин графа до всех остальных. Программа реализует алгоритм, сначала вводится количество узлов, затем заполняется матрица смежности и выбирается узел, для которго будут искаться минимальное расстояние с другими узлами. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVersion}{Version}
+1.\+1  Release algoritym Deikstra 
+\end{DoxyVersion}
+
+
+\subsection{Function Documentation}
+\hypertarget{123_8cpp_a553cee08aaeb722a1554f767d2384ae5}{}\index{123.\+cpp@{123.\+cpp}!Deikstra@{Deikstra}}
+\index{Deikstra@{Deikstra}!123.\+cpp@{123.\+cpp}}
+\subsubsection[{Deikstra}]{\setlength{\rightskip}{0pt plus 5cm}void Deikstra (
+\begin{DoxyParamCaption}
+\item[{int $\ast$$\ast$}]{A, }
+\item[{int}]{st, }
+\item[{int}]{N}
+\end{DoxyParamCaption}
+)}\label{123_8cpp_a553cee08aaeb722a1554f767d2384ae5}
+Функция релизующая алгритм Дейкстры 
+\begin{DoxyParams}{Parameters}
+{\em $\ast$$\ast$\+A} & -\/ подаваемый указатель на матрицу смежности \\
+\hline
+{\em st} & -\/ подаваемый стартовый (начальный) узел \\
+\hline
+{\em N} & -\/ подаваемая размерность матрицы \\
+\hline
+\end{DoxyParams}
+Присваем расстояниям в начале \char`\"{}бесконечность\char`\"{} и узлам то что они не посещённые
+
+Метка 0 для стартового узла
+
+Щсновной цикл выполняющий алгоритм Дейкстры \hypertarget{123_8cpp_acdef7a1fd863a6d3770c1268cb06add3}{}\index{123.\+cpp@{123.\+cpp}!main@{main}}
+\index{main@{main}!123.\+cpp@{123.\+cpp}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}void main (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{123_8cpp_acdef7a1fd863a6d3770c1268cb06add3}
+
+
+Алгоритм Дейкстры -\/ алгоритм на графах, изобретённый нидерландским учёным Э. Дейкстрой в 1959 году. Находит кратчайшие пути от одной из вершин графа до всех остальных. Программа реализует алгоритм, сначала вводится количество узлов, затем заполняется матрица смежности и выбирается узел, для которго будут искаться минимальное расстояние с другими узлами. 
+
